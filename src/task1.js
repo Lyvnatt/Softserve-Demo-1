@@ -25,7 +25,7 @@ export default function chessBoard(length, width, char) {
 
   for (let row = 0; row < length; row++) {
     for (let col = 0; col < width; col++) {
-      board += (col + row) % 2 === 0 ? `${char}` : " ";
+      board += (col + row) % 2 === 0 ? char : " ";
     }
     if (row !== length - 1) {
       board += "\n";

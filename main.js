@@ -22,7 +22,7 @@ import fibonacciSeq from './src/task7.js';
 
 
 // // Task 2 - Envelope Analysis
-// console.log(encloseEnv({a: 5, b:3}, {c:4, d:2}));
+// console.log(encloseEnv({b: 3, a:5}, {c:2, d:4}));
 // console.log(encloseEnv({a: 0, b:undefined}, {c:4, d:2}));
 // console.log(encloseEnv({a: -5, b:3}, {c:4, d:2}));
 // console.log(encloseEnv({a: 5, b:3}, {c:4, d:3}));
