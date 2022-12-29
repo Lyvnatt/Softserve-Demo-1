@@ -1,4 +1,4 @@
-export default function encloseEnv (obj1, obj2) {
+export default function encloseEnv (obj1) {
   if (typeof obj1 !== 'object' || typeof obj2 !== 'object') {
     return { status: 'failed', reason: 'ERROR: Arguments must be two objects' }
   } else if (Object.keys(obj1).length !== 2 || Object.keys(obj2).length !== 2) {
