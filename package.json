@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "demo-1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
